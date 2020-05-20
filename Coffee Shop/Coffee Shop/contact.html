@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>Coffee Shop</title>
+
+  <!-- CSS  -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.12/css/all.css" integrity="sha384-G0fIWCsCzJIMAVNQPfjH08cyYaUtMwjJwqiRKxxE/rx96Uroj1BtIQ6MLJuheaO9" crossorigin="anonymous">
+</head>
+<body>
+  <!--NAVIGATION BAR-->
+  <nav class="white fixed-navbar" role="navigation">
+    <div class="nav-wrapper container">
+      <a id="logo-container" href="index.html" class="brand-logo"><img src="img/logo.png" id="brand-logo"></a>
+      <ul class="right hide-on-med-and-down">
+        <li><a href="index.html" class="act">Home</a></li>
+        <li><a href="gallery.html" class="act">Gallery</a></li>
+        <li><a href="special.html" class="act">Special</a></li>
+        <li><a href="team.html" class="act">Team</a></li>   
+        <li><a href="history.html" class="act">History</a></li>
+        <li><a href="contact.html" class="act">Contact</a></li>
+      </ul>
+      <!--NAVIGATION BAR FOR MOBILE-->
+      <ul id="nav-mobile" class="sidenav">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="special.html">Special</a></li>
+        <li><a href="team.html">Team</a></li>
+        <li><a href="history.html" class="act">History</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+      <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+    </div>
+  </nav>
+
+<!--///////////////////////////////////////////////////////////////////////////-->
+
+<!--PARALLAX CONTACT US -->
+   <div class="parallax-container valign-wrapper parallax-special">
+    <div class="section no-pad-bot">
+      <div class="container">
+        <div class="row center">
+            <h4 class="header col s12">Get in touch with us!</h4>
+          </div>
+        </div>
+      </div>
+      <div class="parallax"><img src="img/contact/img-con-parallax.jpg" alt="parralax contact">   </div>
+    </div>
+
+<!--///////////////////////////////////////////////////////////////////////////////-->
+
+
+<!--CONTACT FORM-->
+
+<hr class="small-spacing">
+<h4 class="center">Please fill this information</h4>
+<hr>
+
+<div class="container small-spacing">
+  <div class="row">
+    <form class="col s12 l8">
+      <div class="row">
+        <div class="input-field col s6">
+          <i class="material-icons prefix">account_circle</i>
+          <input placeholder="First Name" id="first_name" type="text" class="validate">
+          <label for="first_name">First Name</label>
+        </div>
+        <div class="input-field col s6">
+          <i class="material-icons prefix">account_box</i>
+          <input id="last_name" type="text" class="validate">
+          <label for="last_name">Last Name</label>
+        </div>
+      </div>
+      <div class="row">
+        <div class="input-field col s6">
+          <i class="material-icons prefix">beenhere</i>
+          <input id="password" type="password" class="validate">
+          <label for="password">Password</label>
+        </div>
+        <div class="input-field col s6">
+          <i class="material-icons prefix">email</i>
+          <input id="email" type="email" class="validate">
+          <label for="email">Email</label>
+        </div>
+      </div>
+      <div class="row">
+          <div class="input-field col s12 l12">
+            <i class="material-icons prefix">mode_edit</i>
+            <textarea id="textarea1" class="materialize-textarea"></textarea>
+            <label for="textarea1">Write us something!</label>
+          </div>
+      </div>
+      <div class="row">
+          <div class="input-field col s12 l12 center">
+            <input id="submit" type="submit" class="validate btn black" value="Send Us!">
+          </div>
+      </div>
+    </form>
+
+
+    <div class="col s12 m4 left center">    
+      <h5><i class="material-icons prefix small">add_location</i>Coffee Shop</h5>
+      <p>321 Awesome Street<br>
+      New York, NY 12345</p>
+    </div>
+    <div class="col s12 m4  left center">
+      <i class="material-icons prefix small small-spacing">mail_outline</i>
+      <p>info@companyname.com</p>
+    </div>
+    <div class="col s12 m4  left center">
+      <i class="material-icons prefix small small-spacing">contact_phone</i>
+      <p>+1 235 123 1234</p>
+    </div>
+
+  </div>
+</div>
+
+
+<!--///////////////////////////////////////////////////////////////////////////////-->
+
+<!--PARALLAX MAP-->
+   <div class="parallax-container valign-wrapper ">
+    
+      <div class="parallax"><img src="img/contact/img-map.gif" alt="parallax map">   </div>
+    </div>
+
+<!--///////////////////////////////////////////////////////////////////////////////////////-->
+<!--FOOTER SECTION-->
+  <footer class="page-footer white">
+  <div class="footer-copyright main-color">
+      <div class="container">
+        <div class="row">
+            <div class="col s12 l6 left mar-top white-text">
+              Made by <a class="orange-text" href="http://www.sitequite.com/"> SiteQuite</a> All Rights Reserved &copy
+            </div>
+            <div class="col s12 l6 social-icons right center mar-top">
+              <a href="#"><i class="fab fa-facebook-square  small white-text "></i></a>
+              <a href="#"><i class="fab fa-twitter-square  small white-text"></i></a>
+              <a href="#"><i class="fab fa-google-plus-square  small white-text"></i></a>
+              <a href="#"><i class="fab fa-youtube-square  small white-text"></i></a>
+            </div>
+          </div>
+      </div>
+    </div>
+  </footer>
+
+
+  <!--SCRIPTS-->
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="js/materialize.js"></script>
+  <script src="js/init.js"></script>
+
+  </body>
+</html>
